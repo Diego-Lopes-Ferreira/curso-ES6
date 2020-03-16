@@ -1,8 +1,8 @@
 "use strict";
 
-var arr = [2, 4, 5, 6, 7, 4, 4];
-console.log(arr);
-var newArr = arr.map(function (item) {
-  return item * 2;
-});
-console.log(newArr);
+var nome = 'Diego L F';
+var idade = 17;
+var frase = 'É fazendo merda que se aduba a vida...';
+var ano = 2020;
+console.log("Meu nome \xE9 ".concat(nome, ", e tenho ").concat(idade, " anos."));
+console.log("Minha frase de efeito \xE9: ".concat(frase, " - ").concat(nome, ", ").concat(ano));

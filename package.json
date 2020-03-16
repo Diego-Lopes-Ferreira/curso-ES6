@@ -8,9 +8,17 @@
   "dependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.7",
+    "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
     "@babel/preset-env": "^7.8.7"
   },
   "scripts": {
-    "dev": "babel ./main.js -o ./bundle.js -w"
+    "dev": "babel ./main.js -o ./bundle.js -w",
+    "dev01": "babel ./Exercicio01/main.js -o ./Exercicio01/bundle.js -w",
+    "dev02": "babel ./Exercicio02/main.js -o ./Exercicio02/bundle.js -w",
+    "dev03": "babel ./Exercicio03/main.js -o ./Exercicio03/bundle.js -w",
+    "dev04": "babel ./Exercicio04/main.js -o ./Exercicio04/bundle.js -w",
+    "dev05": "babel ./Exercicio05/main.js -o ./Exercicio05/bundle.js -w",
+    "dev06": "babel ./Exercicio06/main.js -o ./Exercicio06/bundle.js -w",
+    "dev07": "babel ./Exercicio07/main.js -o ./Exercicio07/bundle.js -w"
   }
 }
