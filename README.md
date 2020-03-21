@@ -12,5 +12,15 @@
   - [X] Exercício 07
 
 ### Parte 02: Webpack Server
+  - [X] Aulas
+  - [X] Exercício 01
+
+### Parte 03: Async / Await
   - [ ] Aulas
   - [ ] Exercício 01
+
+## Student
+
+Diego Lopes Ferreira – [@Twitter](https://twitter.com/Diego45731776) – [@Instagram](https://www.instagram.com/diego.lopes.f/)
+
+[github.com/Diego-Lopes-Ferreira](https://github.com/Diego-Lopes-Ferreira/)
