@@ -1,24 +1,21 @@
 {
-  "name": "curso-ES6",
+  "name": "curso-es6",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/Diego-Lopes-Ferreira/curso-ES6.git",
   "author": "Diego-Lopes-Ferreira <diego.lopes.ferreira.br@gmail.com>",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.7",
     "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
-    "@babel/preset-env": "^7.8.7"
+    "@babel/preset-env": "^7.8.7",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   },
   "scripts": {
-    "dev": "babel ./main.js -o ./bundle.js -w",
-    "dev01": "babel ./M1/Exercicio01/main.js -o ./M1/Exercicio01/bundle.js -w",
-    "dev02": "babel ./M1/Exercicio02/main.js -o ./M1/Exercicio02/bundle.js -w",
-    "dev03": "babel ./M1/Exercicio03/main.js -o ./M1/Exercicio03/bundle.js -w",
-    "dev04": "babel ./M1/Exercicio04/main.js -o ./M1/Exercicio04/bundle.js -w",
-    "dev05": "babel ./M1/Exercicio05/main.js -o ./M1/Exercicio05/bundle.js -w",
-    "dev06": "babel ./M1/Exercicio06/main.js -o ./M1/Exercicio06/bundle.js -w",
-    "dev07": "babel ./M1/Exercicio07/main.js -o ./M1/Exercicio07/bundle.js -w"
+    "dev": "webpack-dev-server --mode=development"
   }
 }
