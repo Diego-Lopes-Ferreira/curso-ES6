@@ -1,10 +1,14 @@
-/*import usuario from './funcions';
+import axios from 'axios';
+class Api {
+  static async getUserInfo(username) {
+    try {
+      const response = await axios.get(`https://api.github.com/users/${username}/repos`);
+      console.log(response);
+    } catch(err) {
+      console.warn('Error on log');
+    }
+  
+};
+};
 
-usuario.info();*/
-
-/*import { idade } from './funcions';
-console.log(idade);*/
-
-import usuario, {idade as idadeUsuario} from './funcions';
-usuario.info();
-console.log(idadeUsuario);
+Api.getUserInfo('sdçkjnsdkjnckdjn');
